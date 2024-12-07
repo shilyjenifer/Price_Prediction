@@ -1,2 +1,3 @@
 # Price_Prediction
 This repository contains a comprehensive project focused on building an end-to-end data product for predicting house prices. It combines data engineering, machine learning, and deployment to provide a seamless pipeline from raw data ingestion to delivering accurate predictions.
+The data ingestion python file uses the factory design to ingest data into the pipeline. It automatically extracts the data if present in .zip format, recognises extensions like .csv and .json and gives a data dictionary as output containing csv and json files segregated as seperate lists. We can access them using their keys.
